@@ -1,0 +1,40 @@
+/* UserList.css */
+
+.user-list-container {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 28px;
+  color: #ff85a2; /* Pastel pink (rose) */
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  color: #ffadc4; /* Lighter pastel pink (rose) */
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff; /* White background */
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+li:hover {
+  background-color: #ffe6eb; /* Light pastel pink (rose) on hover */
+  transform: translateY(-3px);
+}
+
+/* Add more custom styles as needed */
